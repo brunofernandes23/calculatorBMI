@@ -1,7 +1,7 @@
 *__Calculo IMC__*
 >Nesse desafio prático foi definida certas regras:
 
-**1) Crie uma aplicação para efetuar o cálculo do índice de massa corporal.
+1) Crie uma aplicação para efetuar o cálculo do índice de massa corporal.
 Considere os seguintes critérios:
 1) Ao executar o script a aplicação deve solicitar a entrada do nome da pessoa.
 2) Na sequência a aplicação deve solicitar que seja informada a altura da pessoa em
@@ -27,7 +27,7 @@ h) Se M for maior que 40: Obesidade grau III
 “<Nome> possui índice de massa corporal igual a <m>, sendo classificado como:
 <classificacao>.”
 *As informações em vermelho são variáveis e devem ser substituídas pelos seus respectivos
-valores calculadas dentro da aplicação**
+valores calculadas dentro da aplicação*
 
 *__Resolução__*
 > Definida as entradas de dados e feita o calculo do imc sendo imc = peso / (altura * altura)
