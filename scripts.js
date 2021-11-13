@@ -1,7 +1,7 @@
 //Entrada dos valores
-var nome = prompt('Informe o seu nome:');
-var altura = prompt('Informe a sua altura:');
-var peso = prompt('Informe o seu peso:');
+let nome = prompt('Informe o seu nome:');
+let altura = prompt('Informe a sua altura:');
+let peso = prompt('Informe o seu peso:');
 
 //transforma os dados em float
 altura = parseFloat(altura);
@@ -11,7 +11,7 @@ peso = parseFloat(peso);
 altura = altura / 100;
 
 //faz o calculo do imc e atribui a variavel
-var imc = peso / (altura * altura);
+let imc = peso / (altura * altura);
 
 imc = parseFloat(imc);
 
