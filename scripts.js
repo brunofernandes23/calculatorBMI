@@ -36,4 +36,4 @@ if (imc < 16) {
     classificacao = 'Obesidade grau |||';
 }
 
-document.write(nome + ' possui índice de massa corporal igual a ' + imc + ',' + ' sendo classificado como: ' + classificacao);
+document.write(`${nome} possui índice de massa corporal igual a ${imc}, sendo classificado como: ${classificacao}`);
