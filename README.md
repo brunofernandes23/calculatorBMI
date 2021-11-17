@@ -1,5 +1,6 @@
 
-* __ Calculation of BMI (Body Mass Index) __ *
+*__Calculation of BMI (Body Mass Index)__*
+
 > In this practical challenge, some rules were defined:
 
 1) Create an app to calculate body mass index.
