@@ -32,5 +32,5 @@ Values calculated within the app *
 
 
 * __ Resolution __ *
-> Defined as data entries and calculated the bmi where bmi = weight / (height * height)
-> After this treatment, if more used to meet the conditions and classify the bmi
+> I defined data entry using prompt and calculated bmi, where bmi = weight / (height * height)
+> After this treatment, if else was used to meet the conditions and classify the bmi
