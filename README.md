@@ -31,7 +31,7 @@ h) If M for greater than 40: grade III obesity
 * Information in red is variable and should be replaced by your best
 Values calculated within the app *
 
+*__Resolution__*
 
-* __ Resolution __ *
 > I defined data entry using prompt and calculated bmi, where bmi = weight / (height * height)
 > After this treatment, if else was used to meet the conditions and classify the bmi
