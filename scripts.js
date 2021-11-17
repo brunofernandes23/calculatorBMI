@@ -1,39 +1,39 @@
-//Entrada dos valores
-let nome = prompt('Informe o seu nome:');
-let altura = prompt('Informe a sua altura:');
-let peso = prompt('Informe o seu peso:');
+//Entry of values
+let name = prompt('Inform your name:');
+let height = prompt('Inform your height:');
+let weight = prompt('Inform your weight:');
 
-//transforma os dados em float
-altura = parseFloat(altura);
-peso = parseFloat(peso);
+//transform the data into float
+height = parseFloat(height);
+weight = parseFloat(weight);
 
-//converte cm em metros
-altura = altura / 100;
+//converts centimeters into meters
+height = height / 100;
 
-//faz o calculo do imc e atribui a variavel
-let imc = peso / (altura * altura);
+//calculate the bmi and assign the variable
+let bmi = weight / (height * height);
 
-imc = parseFloat(imc);
+bmi = parseFloat(bmi);
 
-//verifica o valor atribui e atribui a classificação
+//check condition and assign rating
 
 
-if (imc < 16) {
-    classificacao = 'Baixo peso muito grave';
-} else if (imc >= 16 && imc <= 16.99) {
-    classificacao = 'Baixo peso grave';
-} else if (imc >= 17 && imc <= 18.49) {
-    classificacao = 'Baixo peso';
-} else if (imc >= 18.50 && imc <= 24.99) {
-    classificacao = 'Peso normal';
-} else if (imc >= 25 && imc <= 29.99) {
-    classificacao = 'Sobrepeso';
-} else if (imc >= 30 && imc <= 34.99) {
-    classificacao = 'Obesidade grau |';
-} else if (imc >= 35 && imc <= 39.99) {
-    classificacao = 'Obesidade grau ||';
+if (bmi < 16) {
+    classification = 'Very severe underweight';
+} else if (bmi >= 16 && bmi <= 16.99) {
+    classification = 'Severe underweight';
+} else if (bmi >= 17 && bmi <= 18.49) {
+    classification = 'Low weight';
+} else if (bmi >= 18.50 && bmi <= 24.99) {
+    classification = 'Normal weight';
+} else if (bmi >= 25 && bmi <= 29.99) {
+    classification = 'Overweight';
+} else if (bmi >= 30 && bmi <= 34.99) {
+    classification = 'Grade I obesity';
+} else if (bmi >= 35 && bmi <= 39.99) {
+    classification = 'Grade II obesity';
 } else {
-    classificacao = 'Obesidade grau |||';
+    classification = 'Grade III obesity';
 }
 
-document.write(`${nome} possui índice de massa corporal igual a ${imc}, sendo classificado como: ${classificacao}`);
+document.write(`${name} it has Body Mass Index iqual to ${bmi}, being classify as: ${classification}`);
