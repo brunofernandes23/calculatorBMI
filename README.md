@@ -1,34 +1,35 @@
-*__Calculo IMC__*
->Nesse desafio prático foi definida certas regras:
+*__Calculation BMI (Body Mass Index)__*
+>In this practical challenge, certain rules were defined:
 
-1) Crie uma aplicação para efetuar o cálculo do índice de massa corporal.
-Considere os seguintes critérios:
-1) Ao executar o script a aplicação deve solicitar a entrada do nome da pessoa.
-2) Na sequência a aplicação deve solicitar que seja informada a altura da pessoa em
-centímetros.
-3) Na sequência a aplicação deve solicitar que seja informado o peso da pessoa.
-4) Após as estradas de dados, atente-se a conversão das informações para dados do tipo
+1) Create an application to calculate the body mass index.
+Consider the following criteria:
+1) When executing the application script, it must request the input of the person's name.
+2) Next, the application must request that the height of the person in
+inches
+3) Afterwards, the application must require the person's weight to be informed.
+4) After the data roads, pay attention to information engineering for data of the type
 float.
-5) Converta a altura recebida em centímetros para metros. (basta dividir a altura por
+5) Convert the desired height to meters. (just divide the height by
 100).
-6) Internamente a aplicação deve executar o cálculo do índice de massa corporal através
-da expressão: M = peso (quilos) ÷ altura²
-7) Após identificar o índice de massa corporal o sistema deverá classificar em faixas
-descritivas utilizando os critérios abaixo:
-a) Se M estiver abaixo de 16 : Baixo peso muito grave
-b) Se M estiver entre 16 e 16,99: Baixo peso grave
-c) Se M estiver entre 17 e 18,49: Baixo peso
-d) Se M estiver entre 18,50 e 24,99: Peso normal
-e) Se M estiver entre 25 e 29,99: Sobrepeso
-f) Se M estiver entre 30 e 34,99: Obesidade grau I
-g) Se M estiver entre 35 e 39,99: Obesidade grau II
-h) Se M for maior que 40: Obesidade grau III
-8) Ao término o sistema deve fornecer a seguinte saída para o usuário:
-“<Nome> possui índice de massa corporal igual a <m>, sendo classificado como:
-<classificacao>.”
-*As informações em vermelho são variáveis e devem ser substituídas pelos seus respectivos
-valores calculadas dentro da aplicação*
+6) Internally the application must perform the calculation of the body mass index through
+of the expression: M = weight (kilograms) ÷ height²
+7) Determine the identification of body mass the system must classify into bands
+descriptive using the criteria below:
+a) If M is below 16: Very severe underweight
+b) If M is between 16 and 16.99: Severely underweight
+c) If M is between 17 and 18.49: Low weight
+d) If M is between 18.50 and 24.99: Normal weight
+e) If M is between 25 and 29.99: Overweight
+f) If M is between 30 and 34.99: Grade I obesity
+g) If M is between 35 and 39.99: Grade II obesity
+h) If M for greater than 40: Grade III obesity
+8) At the end of the system, it must provide the following output to the user:
+"<Name> has a body mass index equal to <m>, being evaluated as:
+<classification>. ”
+* Information in red are variables ​​and must be replaced by their respective
+values ​​calculated within the application *
 
-*__Resolução__*
-> Definida as entradas de dados e feita o calculo do imc sendo imc = peso / (altura * altura)
->Após esse tratamento foi usado o if else para atender as condições e classificar o imc
+
+*__Resolution__*
+> Defined the data entries and calculated the bmi where bmi = weight / (height * height)
+> After this treatment, if else was used to meet the conditions and classify the bmi
